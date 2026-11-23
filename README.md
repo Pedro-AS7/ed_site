@@ -34,8 +34,9 @@ Depois de mudar o CSS ou o JS, aumente o número em `?v=` nos três links do fim
 
 ## Publicar
 
-O site está no **GitHub Pages**: https://pedro-as7.github.io/ed_site/ (repositório `Pedro-AS7/ed_site`, branch `main`, pasta raiz).
-Para atualizar, faça commit e `git push`; o Pages publica sozinho em cerca de 1 minuto.
+O repositório é `Pedro-AS7/ed_site`. O GitHub Pages está **desativado** (o site saiu do ar em 23/11/2026).
+Para publicar de novo: `gh api -X POST repos/Pedro-AS7/ed_site/pages -f "source[branch]=main" -f "source[path]=/"`.
+O endereço volta a ser https://pedro-as7.github.io/ed_site/ e cada `git push` publica sozinho em cerca de 1 minuto.
 
 O repositório é público (exigência do Pages no plano grátis). O `pesquisa-edson-castro.md` fica fora do git pelo `.gitignore`.
 Domínio sugerido: `omelhoramigodoshomens.com.br`, que já é do Edson e hoje não tem site no ar
