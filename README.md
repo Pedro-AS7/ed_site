@@ -34,8 +34,12 @@ Depois de mudar o CSS ou o JS, aumente o número em `?v=` nos três links do fim
 
 ## Publicar
 
-Qualquer hospedagem estática serve: GitHub Pages, Cloudflare Pages, Netlify ou Vercel.
-Basta enviar a pasta inteira. Domínio sugerido: `omelhoramigodoshomens.com.br`, que já é do Edson e hoje não tem site no ar.
+O site está no **GitHub Pages**: https://pedro-as7.github.io/ed_site/ (repositório `Pedro-AS7/ed_site`, branch `main`, pasta raiz).
+Para atualizar, faça commit e `git push`; o Pages publica sozinho em cerca de 1 minuto.
+
+O repositório é público (exigência do Pages no plano grátis). O `pesquisa-edson-castro.md` fica fora do git pelo `.gitignore`.
+Domínio sugerido: `omelhoramigodoshomens.com.br`, que já é do Edson e hoje não tem site no ar
+(configure em Settings → Pages → Custom domain e aponte o DNS para o GitHub).
 
 ## Pendências antes de publicar
 
